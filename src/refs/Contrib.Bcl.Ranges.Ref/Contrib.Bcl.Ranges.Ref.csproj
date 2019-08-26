@@ -7,7 +7,7 @@
     <DefineConstants Condition="'$(TargetFramework)' == 'net461' Or '$(TargetFramework)' == 'net47' Or '$(TargetFramework)' == 'netstandard2.0'">$(DefineConstants),NO_RANGES_SUPPORT</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\Contrib.Microsoft.Bcl.Ranges\**\*.cs" Exclude="..\..\Contrib.Microsoft.Bcl.Ranges\obj\**" />
+    <Compile Include="..\..\Contrib.Bcl.Ranges\**\*.cs" Exclude="..\..\Contrib.Bcl.Ranges\obj\**" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-preview.2" PrivateAssets="all" />

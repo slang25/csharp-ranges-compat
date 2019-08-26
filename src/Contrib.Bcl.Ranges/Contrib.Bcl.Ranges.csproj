@@ -16,7 +16,7 @@
     <PackageReference Include="System.ValueTuple" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <ReferenceAssemblyProjectReference Include="..\refs\Contrib.Microsoft.Bcl.Ranges.Ref\Contrib.Microsoft.Bcl.Ranges.Ref.csproj" />
+    <ReferenceAssemblyProjectReference Include="..\refs\Contrib.Bcl.Ranges.Ref\Contrib.Bcl.Ranges.Ref.csproj" />
   </ItemGroup>
 
 </Project>
