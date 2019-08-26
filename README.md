@@ -1,4 +1,4 @@
-# Contrib.Microsoft.Bcl.Ranges
+# Contrib.Bcl.Ranges
 
 This package polyfills the types required for the C# 8.0 feature [Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#indices-and-ranges) on targets lower than `netcoreapp3.0` and `netstandard2.1`. This includes:
 - .NET Framework - starting from `net461`
@@ -8,7 +8,7 @@ This package polyfills the types required for the C# 8.0 feature [Ranges](https:
 
 Add this to your `csproj` file:
 ```xml
-<PackageReference Include="Contrib.Microsoft.Bcl.Ranges" Version="1.0.0-preview8.19405.3" />
+<PackageReference Include="Contrib.Bcl.Ranges" Version="1.0.0-preview8.19405.3" />
 ```
 and add this to the `PropertyGroup`:
 ```xml
