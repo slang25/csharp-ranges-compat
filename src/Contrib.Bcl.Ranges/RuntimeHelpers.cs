@@ -7,7 +7,7 @@ using System;
 
 namespace System.Runtime.CompilerServices
 {
-    public static class RuntimeHelpers
+    public static partial class RuntimeHelpers
     {
         public static int get_IndexerExtension(this int[] array, Index index) =>
             index.IsFromEnd ? array[array.Length - index.Value] : array[index.Value];
